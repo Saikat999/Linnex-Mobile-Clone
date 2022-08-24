@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.landingpage{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.banner-img {
+    max-height: 80%;
+    width: 100%;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+  }
+
+
+@media (max-width:480px) {
+    .landingpage-logo img{  
+        width: 120px !important;
+        height: 60px !important;
+        margin: 13% !important;
+    }
+    .bengal-mobile-btn{
+        width: 180px !important;
+        height: 90px !important;
+        margin-left: 35% !important;
+    }
+    .bengal-mobile-btn img{
+        width: 150px !important;
+        height: 60px !important;
+        top: 50% !important;
+        left: 50% !important;
+    }
+    .linnex-mobile-btn {
+        width: 180px !important;
+        height: 90px !important;
+        margin-left: 35% !important;
+    }
+    .linnex-mobile-btn img{
+        width: 150px !important;
+        height: 60px !important;
+        top: 50% !important;
+        left: 50% !important;
+    }
+    .brands h1{
+        font-weight: 700 !important;
+        font-size: 30px !important;
+    }
+    .brands h2{
+        font-weight: 700 !important;
+        font-size: 20px !important;
+    }
+
+    
+}
+.banner-content{
+    position:absolute;
+    top: 0;
+}
+.landingpage-logo img{  
+    width: 200px;
+    height: 80px;
+    margin: 9%;
+}
+.bengal-mobile-btn{
+    width: 250px;
+    height: 130px;
+    background-color: aliceblue;
+    margin-left: 55%;
+    border: 1px solid #e13b3f;
+    border-radius: 10px;
+}
+.bengal-mobile-btn img{
+    width: 200px;
+    height: 80px;
+    margin: 12%;
+}
+.linnex-mobile-btn {
+    width: 250px;
+    height: 130px;
+    background-color: aliceblue;
+    margin-left: 55%;
+    margin-top: 20px;
+    border: 1px solid #e13b3f;
+    border-radius: 10px;
+}
+.linnex-mobile-btn img{
+    width: 200px;
+    height: 80px;
+    margin: 12%;
+}
+.brands{
+    margin-left: 40%;
+    margin-top: 20%;
+}
+.brands h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+.brands h2{
+    font-weight: 700;
+}
+
+
